@@ -26,6 +26,7 @@
 		B5ED4D512B98460C0040BF17 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = B5ED4D502B98460C0040BF17 /* AlamofireDynamic */; };
 		B5ED4D532B9847740040BF17 /* TestHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ED4D522B9847740040BF17 /* TestHomeViewController.swift */; };
 		B5ED4D552B984CC90040BF17 /* DepositViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ED4D542B984CC90040BF17 /* DepositViewController.swift */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		05CF04E02B97A23C00672FDF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		B5ED4D522B9847740040BF17 /* TestHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHomeViewController.swift; sourceTree = "<group>"; };
 		B5ED4D542B984CC90040BF17 /* DepositViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositViewController.swift; sourceTree = "<group>"; };
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				B5ED4D472B9845F20040BF17 /* Kingfisher in Frameworks */,
 				B5ED4D442B9845E20040BF17 /* Eureka in Frameworks */,
 				B5ED4D4C2B9845FD0040BF17 /* SnapKit-Dynamic in Frameworks */,
+
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +167,7 @@
 				B5ED4D4E2B98460C0040BF17 /* Alamofire */,
 				B5ED4D502B98460C0040BF17 /* AlamofireDynamic */,
 			);
+
 			productName = "mini-project-iOS-bank-api-starter";
 			productReference = 05CF04BC2B97A0AF00672FDF /* mini-project-iOS-bank-api-starter.app */;
 			productType = "com.apple.product-type.application";
@@ -198,6 +202,7 @@
 				B5ED4D482B9845FD0040BF17 /* XCRemoteSwiftPackageReference "SnapKit" */,
 				B5ED4D4D2B98460C0040BF17 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
+
 			productRefGroup = 05CF04BD2B97A0AF00672FDF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -235,6 +240,9 @@
 				05CF04DB2B97A1FA00672FDF /* TokenResponse.swift in Sources */,
 				05CF04C22B97A0AF00672FDF /* SceneDelegate.swift in Sources */,
 				B5ED4D552B984CC90040BF17 /* DepositViewController.swift in Sources */,
+				05CF04DF2B97A22A00672FDF /* AmountChange.swift in Sources */,
+				05CF04DB2B97A1FA00672FDF /* TokenResponse.swift in Sources */,
+				05CF04C22B97A0AF00672FDF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,6 +531,7 @@
 			productName = AlamofireDynamic;
 		};
 /* End XCSwiftPackageProductDependency section */
+
 	};
 	rootObject = 05CF04B42B97A0AF00672FDF /* Project object */;
 }
