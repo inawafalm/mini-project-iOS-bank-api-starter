@@ -18,6 +18,15 @@
 		05CF04DB2B97A1FA00672FDF /* TokenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CF04DA2B97A1FA00672FDF /* TokenResponse.swift */; };
 		05CF04DF2B97A22A00672FDF /* AmountChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CF04DE2B97A22A00672FDF /* AmountChange.swift */; };
 		05CF04E12B97A23C00672FDF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CF04E02B97A23C00672FDF /* User.swift */; };
+		B5ED4D442B9845E20040BF17 /* Eureka in Frameworks */ = {isa = PBXBuildFile; productRef = B5ED4D432B9845E20040BF17 /* Eureka */; };
+		B5ED4D472B9845F20040BF17 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = B5ED4D462B9845F20040BF17 /* Kingfisher */; };
+		B5ED4D4A2B9845FD0040BF17 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = B5ED4D492B9845FD0040BF17 /* SnapKit */; };
+		B5ED4D4C2B9845FD0040BF17 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = B5ED4D4B2B9845FD0040BF17 /* SnapKit-Dynamic */; };
+		B5ED4D4F2B98460C0040BF17 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B5ED4D4E2B98460C0040BF17 /* Alamofire */; };
+		B5ED4D512B98460C0040BF17 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = B5ED4D502B98460C0040BF17 /* AlamofireDynamic */; };
+		B5ED4D532B9847740040BF17 /* TestHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ED4D522B9847740040BF17 /* TestHomeViewController.swift */; };
+		B5ED4D552B984CC90040BF17 /* DepositViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ED4D542B984CC90040BF17 /* DepositViewController.swift */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +43,9 @@
 		05CF04DA2B97A1FA00672FDF /* TokenResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenResponse.swift; sourceTree = "<group>"; };
 		05CF04DE2B97A22A00672FDF /* AmountChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountChange.swift; sourceTree = "<group>"; };
 		05CF04E02B97A23C00672FDF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B5ED4D522B9847740040BF17 /* TestHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHomeViewController.swift; sourceTree = "<group>"; };
+		B5ED4D542B984CC90040BF17 /* DepositViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositViewController.swift; sourceTree = "<group>"; };
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +53,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5ED4D4F2B98460C0040BF17 /* Alamofire in Frameworks */,
+				B5ED4D512B98460C0040BF17 /* AlamofireDynamic in Frameworks */,
+				B5ED4D4A2B9845FD0040BF17 /* SnapKit in Frameworks */,
+				B5ED4D472B9845F20040BF17 /* Kingfisher in Frameworks */,
+				B5ED4D442B9845E20040BF17 /* Eureka in Frameworks */,
+				B5ED4D4C2B9845FD0040BF17 /* SnapKit-Dynamic in Frameworks */,
+
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +137,8 @@
 			isa = PBXGroup;
 			children = (
 				05CF04C32B97A0AF00672FDF /* ViewController.swift */,
+				B5ED4D522B9847740040BF17 /* TestHomeViewController.swift */,
+				B5ED4D542B984CC90040BF17 /* DepositViewController.swift */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -138,6 +159,15 @@
 			dependencies = (
 			);
 			name = "mini-project-iOS-bank-api-starter";
+			packageProductDependencies = (
+				B5ED4D432B9845E20040BF17 /* Eureka */,
+				B5ED4D462B9845F20040BF17 /* Kingfisher */,
+				B5ED4D492B9845FD0040BF17 /* SnapKit */,
+				B5ED4D4B2B9845FD0040BF17 /* SnapKit-Dynamic */,
+				B5ED4D4E2B98460C0040BF17 /* Alamofire */,
+				B5ED4D502B98460C0040BF17 /* AlamofireDynamic */,
+			);
+
 			productName = "mini-project-iOS-bank-api-starter";
 			productReference = 05CF04BC2B97A0AF00672FDF /* mini-project-iOS-bank-api-starter.app */;
 			productType = "com.apple.product-type.application";
@@ -166,6 +196,13 @@
 				Base,
 			);
 			mainGroup = 05CF04B32B97A0AF00672FDF;
+			packageReferences = (
+				B5ED4D422B9845E20040BF17 /* XCRemoteSwiftPackageReference "Eureka" */,
+				B5ED4D452B9845F20040BF17 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				B5ED4D482B9845FD0040BF17 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				B5ED4D4D2B98460C0040BF17 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+
 			productRefGroup = 05CF04BD2B97A0AF00672FDF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -198,6 +235,11 @@
 				05CF04D82B97A15200672FDF /* NetworkManager.swift in Sources */,
 				05CF04C02B97A0AF00672FDF /* AppDelegate.swift in Sources */,
 				05CF04E12B97A23C00672FDF /* User.swift in Sources */,
+				B5ED4D532B9847740040BF17 /* TestHomeViewController.swift in Sources */,
+				05CF04DF2B97A22A00672FDF /* AmountChange.swift in Sources */,
+				05CF04DB2B97A1FA00672FDF /* TokenResponse.swift in Sources */,
+				05CF04C22B97A0AF00672FDF /* SceneDelegate.swift in Sources */,
+				B5ED4D552B984CC90040BF17 /* DepositViewController.swift in Sources */,
 				05CF04DF2B97A22A00672FDF /* AmountChange.swift in Sources */,
 				05CF04DB2B97A1FA00672FDF /* TokenResponse.swift in Sources */,
 				05CF04C22B97A0AF00672FDF /* SceneDelegate.swift in Sources */,
@@ -421,6 +463,75 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B5ED4D422B9845E20040BF17 /* XCRemoteSwiftPackageReference "Eureka" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/xmartlabs/Eureka";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.0;
+			};
+		};
+		B5ED4D452B9845F20040BF17 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.11.0;
+			};
+		};
+		B5ED4D482B9845FD0040BF17 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		B5ED4D4D2B98460C0040BF17 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B5ED4D432B9845E20040BF17 /* Eureka */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5ED4D422B9845E20040BF17 /* XCRemoteSwiftPackageReference "Eureka" */;
+			productName = Eureka;
+		};
+		B5ED4D462B9845F20040BF17 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5ED4D452B9845F20040BF17 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		B5ED4D492B9845FD0040BF17 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5ED4D482B9845FD0040BF17 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		B5ED4D4B2B9845FD0040BF17 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5ED4D482B9845FD0040BF17 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+		B5ED4D4E2B98460C0040BF17 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5ED4D4D2B98460C0040BF17 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		B5ED4D502B98460C0040BF17 /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5ED4D4D2B98460C0040BF17 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+/* End XCSwiftPackageProductDependency section */
+
 	};
 	rootObject = 05CF04B42B97A0AF00672FDF /* Project object */;
 }
