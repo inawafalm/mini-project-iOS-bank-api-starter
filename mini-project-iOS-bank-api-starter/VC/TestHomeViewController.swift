@@ -11,7 +11,7 @@ import Kingfisher
 import Eureka
 import SnapKit
 
-class HomeViewController: UIViewController {
+class TestHomeViewController: UIViewController {
     
     var usertoken: String? = ""
     var userAmount: AmountChange?

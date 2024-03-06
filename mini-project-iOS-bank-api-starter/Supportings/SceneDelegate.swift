@@ -20,9 +20,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let window = UIWindow(windowScene: windowScene)
         
         // MARK: UPDATE THE FOLLOWING LINE FOR YOUR InitialViewController
-        window.rootViewController = ViewController()
+        window.rootViewController = UINavigationController(rootViewController: HomeViewController())
         self.window = window
         self.window?.makeKeyAndVisible()
+
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
